@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/menzhou/.nvm/versions/node/v14.19.3/bin/node /usr/local/bin/yarn add react react-scripts react-dom
+
+PATH: 
+  /Users/menzhou/.nvm/versions/node/v14.19.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/menzhou/.nvm/versions/node/v14.19.3/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.19.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://artylab.expedia.biz/api/npm/public-npm-virtual/react: Request "https://artylab.expedia.biz/api/npm/public-npm-virtual/react" returned a 403
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66997:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "react-useref",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
